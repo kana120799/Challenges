@@ -3,13 +3,8 @@
 let changeName = () => {
   let player1 = prompt("Enter Player1 Name");
   let player2 = prompt("Enter Player2 Name");
-  if (player1 && player2) {
-    document.querySelector(".play1").innerHTML = player1;
-    document.querySelector(".play2").innerHTML = player2;
-  } else {
-    document.querySelector(".play1").innerHTML = "Player1";
-    document.querySelector(".play2").innerHTML = "Player2";
-  }
+  document.querySelector(".play1").innerHTML = player1;
+  document.querySelector(".play2").innerHTML = player2;
 };
 
 // ==================        Dice   =======================
